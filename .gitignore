@@ -1,0 +1,16 @@
+# LocalTypst cache & temporary files
+.preview-*.svg
+*.typst-tmp
+*.tmp
+*.part
+.typst-incoming/
+.DS_Store
+Thumbs.db
+
+# P2P state, backup tracking & credentials
+.localtypst-shared.json
+.localtypst-environments.json
+.localtypst-backup-pending.json
+_recupero/
+*token*
+*credential*
