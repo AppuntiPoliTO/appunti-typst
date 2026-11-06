@@ -1121,10 +1121,12 @@ La rete lineare viene sostituita dal parallelo tra un generatore ideale di corre
     isource("anor", (7.2, 0), (7.2, 2.4), variant: "iec")
     wire((7.2, 2.4), (7.2, 2.8))
     line((7.2, 2.1), (7.2, 2.55), mark: (end: "stealth", fill: black, scale: 0.7))
-    content((6.65, 2.3), $A_"NOR"$)
+    content((6.65, 2.3), $A_"NOR"$)
+
 
     resistor("rnor", (8.8, 0), (8.8, 2.8), variant: "ieee")
-    content((9.45, 1.2), $R_"NOR"$)
+    content((9.45, 1.2), $R_"NOR"$)
+
 
     wire((7.2, 2.8), (11.2, 2.8))
     wire((7.2, 0), (11.2, 0))
