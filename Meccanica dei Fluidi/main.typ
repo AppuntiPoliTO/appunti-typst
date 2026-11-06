@@ -602,8 +602,11 @@ $ bold(sigma) =
     $ integral.surf_S sigma_(i j) n_j dif Omega = integral.triple_cal(V) (partial sigma_(i j))/(partial x_j) dif cal(V) $
 Sostituendo il tensore idrostatico $sigma_(i j) = -p delta_(i j)$, la derivata satura l'indice $j$:
 $ (partial)/(partial x_j) (-p delta_(i j)) = -(partial p)/(partial x_j) delta_(i j) = -(partial p)/(partial x_i) $
+
 Il bilancio integrale diventa perciò:
+
 $ integral.triple_cal(V) ( rho g_i - (partial p)/(partial x_i) ) dif cal(V) = 0 $
+
 Affinché questo integrale sia nullo per _qualsiasi_ volume arbitrario $cal(V)$, l'integranda deve essere nulla in ogni punto, da cui ritroviamo l'equazione vettoriale $rho arrow(g) = nabla p$. Si noti come la saturazione degli indici tramite la delta di Kronecker renda rigorosamente coerente l'identità dimensionale dell'equazione.
 #pagebreak()
 == Legge di Stevino
